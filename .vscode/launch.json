@@ -1,0 +1,329 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array_reverse",
+            "request": "launch",
+            "mainClass": "Array_reverse",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Average3",
+            "request": "launch",
+            "mainClass": "Assignment.Average3",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Even",
+            "request": "launch",
+            "mainClass": "Assignment.Even",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Assignment.Palindrome",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Assignment.Que1",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Assignment.Que2",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "SumOFDigits",
+            "request": "launch",
+            "mainClass": "Assignment.SumOFDigits",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Binary_Search",
+            "request": "launch",
+            "mainClass": "Binary_Search",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Binomial",
+            "request": "launch",
+            "mainClass": "Binomial",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Conditions",
+            "request": "launch",
+            "mainClass": "Conditions",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Counting",
+            "request": "launch",
+            "mainClass": "Counting",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "CountingSort",
+            "request": "launch",
+            "mainClass": "CountingSort",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Diagonal_sum",
+            "request": "launch",
+            "mainClass": "Diagonal_sum",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "InputSum",
+            "request": "launch",
+            "mainClass": "InputSum",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Insertion_sort",
+            "request": "launch",
+            "mainClass": "Insertion_sort",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Largest",
+            "request": "launch",
+            "mainClass": "Largest",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Max_Subarrays",
+            "request": "launch",
+            "mainClass": "Max_Subarrays",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Multiply",
+            "request": "launch",
+            "mainClass": "Multiply",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "OddEven",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Odd_even",
+            "request": "launch",
+            "mainClass": "Odd_even",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome(1)",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Selection_sort",
+            "request": "launch",
+            "mainClass": "Selection_sort",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "ShortestPath",
+            "request": "launch",
+            "mainClass": "ShortestPath",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Spiral",
+            "request": "launch",
+            "mainClass": "Spiral",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Stocks",
+            "request": "launch",
+            "mainClass": "Stocks",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilders",
+            "request": "launch",
+            "mainClass": "StringBuilders",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "String_Compresion",
+            "request": "launch",
+            "mainClass": "String_Compresion",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "SubString",
+            "request": "launch",
+            "mainClass": "SubString",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Subarray",
+            "request": "launch",
+            "mainClass": "Subarray",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "Trapped_Rainwater",
+            "request": "launch",
+            "mainClass": "Trapped_Rainwater",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "arrayPairs",
+            "request": "launch",
+            "mainClass": "arrayPairs",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "binToDec",
+            "request": "launch",
+            "mainClass": "binToDec",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort",
+            "request": "launch",
+            "mainClass": "bubble_sort",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "decToBin",
+            "request": "launch",
+            "mainClass": "decToBin",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "forFunctions",
+            "request": "launch",
+            "mainClass": "forFunctions",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "kadanes",
+            "request": "launch",
+            "mainClass": "kadanes",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "largest_String",
+            "request": "launch",
+            "mainClass": "largest_String",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "linear_Search",
+            "request": "launch",
+            "mainClass": "linear_Search",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "patterns",
+            "request": "launch",
+            "mainClass": "patterns",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "toUpperCase",
+            "request": "launch",
+            "mainClass": "toUpperCase",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
+            "name": "two_d_array_Matrices",
+            "request": "launch",
+            "mainClass": "two_d_array_Matrices",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        }
+    ]
+}
