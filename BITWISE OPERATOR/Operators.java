@@ -7,10 +7,13 @@ class Operators {
             return 1; // ith bit is 1
         }
     }
-    public static 
+    public static int setIthbit(int n , int i){
+        int bitmask = 1<<i;
+        return n|bitmask ; // set ith bit to 1
+    }
 
     public static void main(String[] args) {
-        System.out.println("hello");
-        System.out.println(getIthbit(10, 2));
+       // System.out.println(getIthbit(10, 2));
+        System.out.println(setIthbit(10, 2));
     }
 }
