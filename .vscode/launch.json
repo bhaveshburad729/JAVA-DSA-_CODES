@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Operators",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
