@@ -7,8 +7,10 @@ class Operators {
             return 1; // ith bit is 1
         }
     }
+    public static 
 
     public static void main(String[] args) {
-getIthbit(10, 2);
+        System.out.println("hello");
+        System.out.println(getIthbit(10, 2));
     }
 }
