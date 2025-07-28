@@ -19,6 +19,6 @@ class Operators {
     public static void main(String[] args) {
        // System.out.println(getIthbit(10, 2));
         //System.out.println(setIthbit(10, 2));
-        System.out.println(clearIthBit(10,1)); // clears the
+        //System.out.println(clearIthBit(10,1)); // clears the
     }
 }
