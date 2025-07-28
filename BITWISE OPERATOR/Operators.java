@@ -27,11 +27,17 @@ class Operators {
         int bitmask = (-1) << i; // -1 == (~0);
         return n & bitmask;
     }
-
+    public static int clearRangeBits( int n , int i , int j){
+        int a = (~0) <<(j+1);
+        int b = (1<<i) -1 ; // 2^b-1
+        int bitmask = a|b;
+        return n &bitmask;
+    }
     public static void main(String[] args) {
        // System.out.println(getIthbit(10, 2));
         //System.out.println(setIthbit(10, 2));
         //System.out.println(clearIthBit(10,1)); // clears the
-        System.out.println(updateIthBit(10, 2, 0)); // updates the ith bit to newbit
+        //System.out.println(updateIthBit(10, 2, 0)); // updates the ith bit to newbit
+        System.out.println(clearRangeBits(10,2,4));
     }
 }
