@@ -47,7 +47,7 @@ public class BinarySearchExample {
     // Driver code (main method)
     public static void main(String[] args) {
         // Sorted array (Binary Search works only on sorted arrays)
-        int arr[] = {2, 4, 7, 10, 15, 20, 27, 35, 40};
+        int arr[] = {2, 4, 7, 10, 15, 20, 27, 35, 40,50};
 
         int target = 15; // Element to search
 
