@@ -6,7 +6,7 @@
 
 public class BinarySearchExample {
 
-    // Function to perform Binary Search
+    // Function to perform Binary Search COde 
     // Parameters:
     // arr[] -> sorted array of integers
     // target -> element to search
