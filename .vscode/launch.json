@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "JAVA-DSA-_CODES_1703986b"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "Test",
