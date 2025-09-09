@@ -72,72 +72,77 @@ public class NQueensCounting {
         System.out.println("Total solutions = " + count);
     }
 }
- // logic for code 
+// logic for code
 
- /* 🎯 Problem
-
-We need to place N Queens on an N x N chessboard such that:
-
-No two Queens attack each other.
-
-Queens attack vertically, and diagonally (left + right).
-
-We must print all valid boards and also count total solutions.
-
-🔑 Logic of the Code
-
-Board Setup
-
-The chessboard is represented by a 2D array board[n][n].
-
-Each cell is initialized with 'x' (empty).
-
-Recursive Backtracking (nQueens)
-
-The algorithm works row by row.
-
-For the current row, try placing a Queen ('Q') in every column.
-
-Before placing, call isSafe(row, col) to check if the position is safe.
-
-If safe → place Queen and recursively call nQueens for the next row.
-
-If we reach row == n, it means all Queens are placed → print the board and increase count.
-
-After recursion, backtrack by removing the Queen ('x') to explore other possibilities.
-
-Safety Check (isSafe)
-For a given cell (row, col), check only above rows because below rows are still empty:
-
-Vertical check: No Queen in same column above.
-
-Left diagonal check: No Queen on upper-left diagonal.
-
-Right diagonal check: No Queen on upper-right diagonal.
-
-If all checks pass → position is safe.
-
-Counting Solutions
-
-Each time a valid arrangement is found, increment count.
-
-At the end, print Total solutions = count.
-
-Output
-
-Prints every valid chessboard arrangement.
-
-Shows total number of ways Queens can be placed.
-
-⚡ Example (N=4)
-
-One valid arrangement looks like:
-
-Q x x x
-x x Q x
-x Q x x
-x x x Q
-
-
-For N=4, there are 2 total solutions.
-For N=8, there are 92 total solutions. */
+/*
+ * 🎯 Problem
+ * 
+ * We need to place N Queens on an N x N chessboard such that:
+ * 
+ * No two Queens attack each other.
+ * 
+ * Queens attack vertically, and diagonally (left + right).
+ * 
+ * We must print all valid boards and also count total solutions.
+ * 
+ * 🔑 Logic of the Code
+ * 
+ * Board Setup
+ * 
+ * The chessboard is represented by a 2D array board[n][n].
+ * 
+ * Each cell is initialized with 'x' (empty).
+ * 
+ * Recursive Backtracking (nQueens)
+ * 
+ * The algorithm works row by row.
+ * 
+ * For the current row, try placing a Queen ('Q') in every column.
+ * 
+ * Before placing, call isSafe(row, col) to check if the position is safe.
+ * 
+ * If safe → place Queen and recursively call nQueens for the next row.
+ * 
+ * If we reach row == n, it means all Queens are placed → print the board and
+ * increase count.
+ * 
+ * After recursion, backtrack by removing the Queen ('x') to explore other
+ * possibilities.
+ * 
+ * Safety Check (isSafe)
+ * For a given cell (row, col), check only above rows because below rows are
+ * still empty:
+ * 
+ * Vertical check: No Queen in same column above.
+ * 
+ * Left diagonal check: No Queen on upper-left diagonal.
+ * 
+ * Right diagonal check: No Queen on upper-right diagonal.
+ * 
+ * If all checks pass → position is safe.
+ * 
+ * Counting Solutions
+ * 
+ * Each time a valid arrangement is found, increment count.
+ * 
+ * At the end, print Total solutions = count.
+ * 
+ * Output
+ * 
+ * Prints every valid chessboard arrangement.
+ * 
+ * Shows total number of ways Queens can be placed.
+ * 
+ * ⚡ Example (N=4)
+ * 
+ * One valid arrangement looks like:
+ * 
+ * Q x x x
+ * x x Q x
+ * x Q x x
+ * x x x Q
+ * 
+ * 
+ * For N=4, there are 2 total solutions.
+ * For N=8, there are 92 total solutions.
+ */
