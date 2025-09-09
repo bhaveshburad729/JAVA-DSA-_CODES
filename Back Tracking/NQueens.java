@@ -76,3 +76,69 @@ public class NQueens {
         nQueens(board, 0);
     }
 }
+ // code logic 
+ /* Place N Queens on an N x N chessboard so that no two Queens attack each other.
+
+Queens attack vertically, and diagonally (both left and right).
+
+🔑 Logic of the Code
+
+Chessboard Initialization
+
+The board is represented by a 2D array char board[][].
+
+Initially, all cells are filled with 'x' (empty).
+
+Recursive Function (nQueens)
+
+The algorithm works row by row.
+
+At each row, try placing a Queen ('Q') in each column one by one.
+
+For every position (row, col), check if it’s safe using isSafe().
+
+If safe → place Queen and move to next row (row+1).
+
+If not safe → skip that column and try next.
+
+When we reach the last row (row == n), it means all Queens are placed successfully → print the board.
+
+Safety Check (isSafe)
+For any position (row, col):
+
+Vertical Check: Look upwards in the same column. If a Queen exists, not safe.
+
+Left Diagonal Check: Look upward-left diagonal. If a Queen exists, not safe.
+
+Right Diagonal Check: Look upward-right diagonal. If a Queen exists, not safe.
+
+If all checks pass → safe to place a Queen.
+
+Backtracking
+
+If a Queen is placed and further recursion fails to find a solution, remove that Queen ('x') and try another column.
+
+This ensures we explore all possible valid placements.
+
+Printing the Solution
+
+Whenever a valid arrangement of N Queens is found, print the board.
+
+⚡ Example (N=4)
+
+For a 4x4 board:
+
+Place Queen in row 0 → multiple options.
+
+Check each option recursively for row 1.
+
+If no valid position found in a later row → backtrack to previous row, remove Queen, and try a new position.
+
+Continue until all 4 Queens are placed safely.
+
+One valid solution looks like:
+
+Q x x x
+x x Q x
+x Q x x
+x x x Q  */
